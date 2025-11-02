@@ -1,2 +1,1 @@
-# How-to-make-a-CharacterBody-push-a-RigidBody-in-the-Godot-engine-
-Works with both 2D and 3D
+For the CharacterBody to be able to push a RigidBody, you need to click on the CharacterBody, select Collision, set the Layer to 2, set the Mask to 1 and 2, then click on the RigidBody, go to Collision, set the Layer to 3, and set the Mask to 1, 2, and 3.
